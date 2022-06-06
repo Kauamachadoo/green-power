@@ -1,3 +1,4 @@
+/*Corpo do Site */
 body{
     height: 5000px;
 }
@@ -9,9 +10,10 @@ body{
     font-size: 100%
 }
 
+/* Estrutura do Menu */
 #menu-h{
     background-color: rgb(0, 185, 157);
-    font-family: "Lucida Console", Courier, monospace;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
 }
 
 #menu-h ul{
@@ -30,9 +32,9 @@ body{
     display: inline-block;
     text-decoration: none;
 }
-
+/* BG Letras */
 #menu-h ul li a:hover{
-    background-color:rgb(1, 127, 125);
+    background-color: rgb(9, 163, 140);
     padding: 20px;
     border-radius:10px ;
 }
@@ -49,6 +51,18 @@ body{
 #button{
     background-color: rgb(0, 158, 105);
 }
-image{
+
+/* Posição das letras do Menu*/
+li{
     position: relative;
+    left: 300px;
+    right: 900px;
 }
+
+/*Logo do Menu */
+img{
+    position: relative;
+    right: -5px;
+}
+
+

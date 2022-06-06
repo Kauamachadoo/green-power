@@ -1,0 +1,112 @@
+*{
+    margin: 0 auto;
+    padding: 50;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+#menu-h{
+    background-color: rgb(0, 185, 157);
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+#menu-h ul {
+    max-width: 10000px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color:rgb(1, 127, 125);
+    padding: 20px;
+    border-radius:10px ;
+}
+
+body{
+   
+	background: rgb(195, 219, 215);
+}
+#servicos{
+    background-color:rgb(1, 127, 125);
+    width: 500px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 125%;
+    font-family: "Lucida Console", Courier, monospace;
+}
+#sobre{
+    background-color:rgb(1, 127, 125) ;
+    width: 800px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 20px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 125%;
+    font-family: "Lucida Console", Courier, monospace;
+}
+#objetivo{
+    background-color:rgb(1, 127, 125) ;
+    width: 500px;
+    margin-left: 20px;
+    margin-right: 300px;
+    padding: 20px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 125%;
+    font-family: "Lucida Console", Courier, monospace;
+}
+#aulas{
+    background-color:rgb(1, 127, 125) ;
+    width: 500px;
+    margin-left: 600px;
+    margin-right: 50px;
+    padding: 20px 30px;
+    margin-top: -630px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 125%;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+li{
+    position: relative;
+    left: 350px;
+    right: 900px;
+}
+
+img{
+    position: relative;
+    left: 5px;
+}
+

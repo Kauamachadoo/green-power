@@ -2,60 +2,70 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title> Cadastro de Instrutor </title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src='main.js'></script>
+    <script src='_js/controller.js'></script>
+    <link rel="stylesheet" href="_css/cssform.css">
 </head>
 <body>
     <br>
     <br>
     <h3 style="text-align: center;" >CADASTRO PARA INSTRUTOR</h3>
     <br>
-    <div>
+    <div class="container">
         <form method="post" action="cadastrar.php">
-            <div class="container col-6">
-                <div class="mb-3">
+            <div class="row">
+                <div class="col">
                     <label class="form-label">Nome</label>
-                    <input type="name" class="form-control" id="nome" name ="nome">
+                    <input type="text" class="form-control" id="nome" name ="nome" placeholder="Digite seu nome...">
                 </div>
-                <div class="mb-3">
+                <div class="col">
+                    <label class="form-label">Sobrenome</label>
+                    <input type="text" class="form-control" id="sobrenome" name ="nome" placeholder="Digite seu sobrenome...">
+                </div>
+                </div>
+                <div class="row">
+                <div class="col">
                     <label class="form-label">E-mail</label>
-                    <input type="email" class="form-control" id="email" nome="email" >
+                    <input type="email" class="form-control" id="email" nome="email" placeholder="Digite seu e-mail..." >
                 </div>
-                <div class="mb-3">
+                <div class="col">
                     <label class="form-label">Senha</label>
-                    <input type="password" class="form-control" id="senha" name="senha">
+                    <input type="password" class="form-control" id="senha" name="senha" placeholder="Digite uma senha...">
                 </div>
-                <div class="mb-3">
+            </div>
+            <div class="row">
+                <div class="col">
                     <label class="form-label">CPF</label>
-                    <input type="cpf" class="form-control" id="cpf-prof" name="cpf">
+                    <input type="cpf" class="form-control" id="cpf-prof" name="cpf" placeholder="Informe seu CPF...">
                 </div>
-                <div class="mb-3">
+                <div class="col">
                     <label class="form-label">Telefone</label>
-                    <input type="fone" class="form-control" id="fone-prof" name="fone">
+                    <input type="fone" class="form-control" id="fone-prof" name="fone" placeholder="Ex: (DDD)1111-2222">
                 </div>
-                <div class="mb-3">
-                    <label class="form-label">CEP</label>
-                    <input type="cep" class="form-control" id="cep" name="cep">
-                </div>
-                <div class="mb-3">
+            </div>
+            <div class="row">
+                <div class="col">
                     <label class="form-label">Endereço</label>
-                    <input type="address" class="form-control" id="endereco" name="endereco">
+                    <input type="address" class="form-control" id="endereco" name="endereco" placeholder="Informe seu Endereço">
                 </div>
-                <div class="mb-3">
-                <label class="form-label">Segmento de Atuação </label><br>
-                <select name="select">
-                    <option value="valor2" selected>Selecionar</option>
-                    <option value="valor1">Vôlei</option>
-                    <option value="valor2">Futsal</option>
-                    <option value="valor3">Basquete</option>
-                  </select>
+                <div class="col">
+                    <label class="form-label">CEP</label>
+                    <input type="cep" class="form-control" id="cep" name="cep" placeholder="Ex: 12345-678">
                 </div>
+            </div> 
+            <div class="col-md-6">
+                <label class="form-label">Segmento de atuação</label>
+                <select name="select" aria-label="Default select example">
+                    <option value="selecionar" selected>Selecionar</option>
+                    <option value="volei">Vôlei</option>
+                    <option value="futsal">Fustal</option>
+                    <option value="basquete">Basquete</option>
+                </select>
+            </div>
                 <div class="mb-3">
                     <label class="form-label"> Sobre você(Ex. Especialidade, Experiências...) </label>
-                    <textarea class="form-control" id="opina" rows="3" name="opina"></textarea>
+                    <textarea class="form-control" id="opina" rows="3" name="opina" placeholder="Digite aqui!"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">CADASTRAR</button>
             </div>
