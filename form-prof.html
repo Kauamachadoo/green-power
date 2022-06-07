@@ -25,56 +25,73 @@
     <h3 style="text-align: center;" >CADASTRO PARA INSTRUTOR</h3>
     <br>
     <div class="container">
-        <form method="post" action="cadastrar.php">
+        <form>
             <div class="row">
                 <div class="col">
                     <label class="form-label">Nome</label>
-                    <input type="text" class="form-control" id="nome" name ="nome" placeholder="Digite seu nome...">
+                    <input type="text" class="form-control" id="nome-instrutor-instrutor" name ="nome" placeholder="Digite seu nome...">
                 </div>
                 <div class="col">
                     <label class="form-label">Sobrenome</label>
-                    <input type="text" class="form-control" id="sobrenome" name ="nome" placeholder="Digite seu sobrenome...">
-                </div>
+                    <input type="text" class="form-control" id="sobrenome-instrutor" name ="nome" placeholder="Digite seu sobrenome...">
                 </div>
                 <div class="row">
                 <div class="col">
                     <label class="form-label">E-mail</label>
-                    <input type="email" class="form-control" id="email" nome="email" placeholder="Digite seu e-mail..." >
+                    <input type="email" class="form-control" id="email-instrutor" nome="email" placeholder="Digite seu e-mail..." >
                 </div>
                 <div class="col">
                     <label class="form-label">Senha</label>
-                    <input type="password" class="form-control" id="senha" name="senha" placeholder="Digite uma senha...">
+                    <input type="password" class="form-control" id="senha-instrutor" name="senha" placeholder="Digite uma senha...">
                 </div>
             </div>
-            <div class="row">
+                <div class="row">
                 <div class="col">
                     <label class="form-label">CPF</label>
                     <input type="cpf" class="form-control" id="cpf-prof" name="cpf" placeholder="Informe seu CPF...">
                 </div>
                 <div class="col">
+                    <label class="form-label">Data de nascimento</label>
+                    <input type="date" class="form-control" id="data-instrutor" name="date">
+                </div>
+                </div>
+                <div class="row">
+                <div class="col">
                     <label class="form-label">Telefone</label>
-                    <input type="fone" class="form-control" id="fone-prof" name="fone" placeholder="Ex: (DDD)1111-2222">
+                    <input type="fone" class="form-control" id="fone-instrutor" name="fone" placeholder="Ex: (DDD)1111-2222">
                 </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <label class="form-label">Endereço</label>
-                    <input type="address" class="form-control" id="endereco" name="endereco" placeholder="Informe seu Endereço">
+                <div class="col-md-6">
+                    <label class="form-label">Segmento de atuação</label>
+                    <select name="select">
+                        <option value="selecionar" selected>Selecionar</option>
+                        <option value="volei">Vôlei</option>
+                        <option value="futsal">Fustal</option>
+                        <option value="basquete">Basquete</option>
+                    </select>
                 </div>
-                <div class="col">
-                    <label class="form-label">CEP</label>
-                    <input type="cep" class="form-control" id="cep" name="cep" placeholder="Ex: 12345-678">
                 </div>
-            </div> 
-            <div class="col-md-6">
-                <label class="form-label">Segmento de atuação</label>
-                <select name="select" aria-label="Default select example">
-                    <option value="selecionar" selected>Selecionar</option>
-                    <option value="volei">Vôlei</option>
-                    <option value="futsal">Fustal</option>
-                    <option value="basquete">Basquete</option>
-                </select>
-            </div>
+                <div class="row">
+                    <div class="col">
+                        <label class="form-label">CEP</label>
+                        <input type="cep" class="form-control" id="cep" name="cep-instrutor" placeholder="Ex: 12345-678">
+                    </div>
+                        <div class="col">
+                            <label class="form-label">Endereço</label>
+                            <input type="address" class="form-control" id="endereco-instrutor" name="endereco" placeholder="Informe seu Endereço">
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label class="form-label">Bairro</label>
+                        <input type="address" class="form-control" id="bairro-instrutor" name="bairro" placeholder="Informe seu Bairro">
+                    </div>
+                        <div class="col">
+                            <label class="form-label">Nº</label>
+                            <input type="number" class="form-control" id="numero-instrutor" name="numero" placeholder="Número">
+                        </div>
+                        </div>
+                <div class="row">
+                </div>
                 <div class="mb-3">
                     <label class="form-label"> Sobre você(Ex. Especialidade, Experiências...) </label>
                     <textarea class="form-control" id="opina" rows="3" name="opina" placeholder="Digite aqui!"></textarea>

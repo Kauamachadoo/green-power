@@ -1,6 +1,6 @@
 /*Corpo do Site */
 body{
-    height: 5000px;
+    height: 2000px;
 }
 
 *{
@@ -65,4 +65,50 @@ img{
     right: -5px;
 }
 
+#futsal{
+    background-color:rgb(1, 127, 125) ;
+    width: 350px;
+    margin-left: -30px;
+    margin-right: 50px;
+    padding: 20px 30px;
+    margin-top: 500px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 125%;
+    font-family: "Lucida Console", Courier, monospace;
+}
 
+#volei{
+    background-color:rgb(1, 127, 125) ;
+    width: 350px;
+    margin-left: 385px;
+    margin-right: 500px;
+    padding: 20px 30px;
+    margin-top: -142px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 125%;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+#basquete{
+    background-color:rgb(1, 127, 125) ;
+    width: 350px;
+    margin-left: 800px;
+    margin-right: 50px;
+    padding: 20px 30px;
+    margin-top: -142px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 125%;
+    font-family: "Lucida Console", Courier, monospace;
+}

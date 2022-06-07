@@ -27,10 +27,14 @@
     <h3 style="text-align: center;" >CADASTRO DE ALUNO</h3>
     <div class="container">
         <form method="post">
-            <div class="row">
                 <div class="col">
                     <label class="form-label">Nome</label>
                     <input type="text" class="form-control" id="nomealuno" name ="nome" placeholder="Digite seu nome...">
+                </div>
+                <div class="row">
+                <div class="col">
+                    <label class="form-label">Data de nascimento</label>
+                    <input type="date" class="form-control" id="data-aluno" name="date">
                 </div>
                 <div class="col">
                     <label class="form-label">CPF Aluno</label>
@@ -46,27 +50,38 @@
                     <label class="form-label">Senha</label>
                     <input type="password" class="form-control" id="senha-aluno" name="senha" placeholder="Digite uma senha...">
                 </div>
-            </div>
-            <div class="row">
+                </div>
+                <div class="row">
                 <div class="col">
                     <label class="form-label">CPF Responsável</label>
                     <input type="cpf" class="form-control" id="cpf-responsavel" name="cpf" placeholder="Informe seu CPF...">
                 </div>
                 <div class="col">
                     <label class="form-label">Telefone</label>
-                    <input type="fone" class="form-control" id="fone-aluno" name="fone" placeholder="Ex: (DDD)1111-2222">
+                    <input type="fone" class="form-control" id="fone-aluno" name="fone-aluno" placeholder="Ex: (DDD)1111-2222">
                 </div>
-            </div>
-            <div class="row">
+                </div>
+                <div class="row">
+                <div class="col">
+                    <label class="form-label">CEP</label>
+                    <input type="cep" class="form-control" id="cep-aluno" name="cep-aluno" placeholder="Ex: 12345-678">
+                </div>           
                 <div class="col">
                     <label class="form-label">Endereço</label>
                     <input type="address" class="form-control" id="endereco-aluno" name="endereco" placeholder="Informe seu Endereço">
                 </div>
-                <div class="col">
-                    <label class="form-label">CEP</label>
-                    <input type="cep" class="form-control" id="cep-aluno" name="cep" placeholder="Ex: 12345-678">
                 </div>
-            </div> <br>
+                <div class="row">
+                <div class="col">
+                    <label class="form-label">Bairro</label>
+                    <input type="address" class="form-control" id="bairro-aluno" name="bairro" placeholder="Informe seu Bairro">
+                </div>
+                <div class="col">
+                    <label class="form-label">Nº</label>
+                    <input type="number" class="form-control" id="numero-aluno" name="numero" placeholder="Número">
+                </div>
+                </div>
+                 <br>
                 <button type="submit" class="btn btn-primary">CADASTRAR</button>
         </form>
     </div>
