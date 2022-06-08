@@ -1,6 +1,6 @@
 /*Corpo do Site */
 body{
-    height: 2000px;
+    height: 3000px;
 }
 
 *{
@@ -12,7 +12,7 @@ body{
 
 /* Estrutura do Menu */
 #menu-h{
-    background-color: rgb(0, 185, 157);
+    background-color: rgba(5, 155, 0, 0.767);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
 }
 
@@ -39,13 +39,26 @@ body{
     border-radius:10px ;
 }
 #titulo{
+    background-color:rgba(166, 179, 121, 0.37) ;
+    width: 700px;
+    height: 350px;
+    margin-left: -30px;
+    margin-right: 50px;
+    padding: 20px 30px;
+    margin-top: 500px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 125%;
+    font-family: "Lucida Console", Courier, monospace;
     font-size: 400%;
-    color: rgb(0, 107, 84);
+    color: rgb(0, 0, 0);
     margin: 2%;
 }
 #conteudo{
     font-size: 150%;
-    color: rgb(4, 85, 67);
+    color: rgb(0, 0, 0);
     margin: 2%;
 }
 #button{
@@ -87,7 +100,7 @@ img{
     margin-left: 385px;
     margin-right: 500px;
     padding: 20px 30px;
-    margin-top: -142px;
+    margin-top: -440px;
     border-radius: 5px;
     align-items: center;
     justify-content: center;
@@ -103,7 +116,7 @@ img{
     margin-left: 800px;
     margin-right: 50px;
     padding: 20px 30px;
-    margin-top: -142px;
+    margin-top: -440px;
     border-radius: 5px;
     align-items: center;
     justify-content: center;

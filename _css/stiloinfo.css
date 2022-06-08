@@ -36,7 +36,6 @@
 
 body{
    
-	background: rgb(195, 219, 215);
     height: 2000px;
 }
 #servicos{
@@ -108,6 +107,21 @@ li{
 
 img{
     position: relative;
-    left: 5px;
+    left: 10px;
 }
 
+#kaua{
+
+}
+
+#fatima{
+    
+}
+
+#giovana{
+    
+}
+
+#stephane{
+    
+}

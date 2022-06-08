@@ -8,7 +8,6 @@ function verificar(){
 	var fone = document.getElementById('fone-aluno').value;
 	var cpf = document.getElementById('cpf').value;
 	var senha = document.getElementById('senha').value;
-	var genero = document.getElementById('genero').value;
 
 	if(!nome || !email || !dtnas || !fone || !cpf || !senha){
 	 	alert("Campos não preenchidos, favor preenche-los");
