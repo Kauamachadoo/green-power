@@ -6,8 +6,8 @@
 }
 
 #menu-h{
-    background-color: rgb(0, 185, 157);
-    font-family: "Lucida Console", Courier, monospace;
+    background-color: rgba(5, 155, 0, 0.767);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
 }
 
 #menu-h ul {
@@ -29,7 +29,7 @@
 }
 
 #menu-h ul li a:hover {
-    background-color:rgb(1, 127, 125);
+    background-color:rgb(0, 158, 79);
     padding: 20px;
     border-radius:10px ;
 }
@@ -39,7 +39,7 @@ body{
     height: 2000px;
 }
 #servicos{
-    background-color:rgb(1, 127, 125);
+    background-color:rgb(0, 158, 79);
     width: 500px;
     margin-left: 300px;
     margin-right: 300px;
@@ -54,7 +54,7 @@ body{
     font-family: "Lucida Console", Courier, monospace;
 }
 #sobre{
-    background-color:rgb(1, 127, 125) ;
+    background-color:rgb(0, 158, 79);
     width: 800px;
     margin-left: 150px;
     margin-right: 150px;
@@ -69,7 +69,7 @@ body{
     font-family: "Lucida Console", Courier, monospace;
 }
 #objetivo{
-    background-color:rgb(1, 127, 125) ;
+    background-color:rgb(0, 158, 79);
     width: 500px;
     margin-left: 20px;
     margin-right: 300px;
@@ -84,12 +84,12 @@ body{
     font-family: "Lucida Console", Courier, monospace;
 }
 #aulas{
-    background-color:rgb(1, 127, 125) ;
+    background-color:rgb(0, 158, 79);
     width: 500px;
     margin-left: 600px;
     margin-right: 50px;
     padding: 20px 30px;
-    margin-top: -630px;
+    margin-top: -610px;
     border-radius: 5px;
     align-items: center;
     justify-content: center;
@@ -107,7 +107,7 @@ li{
 
 img{
     position: relative;
-    left: 10px;
+    left: 5px;
 }
 
 #kaua{

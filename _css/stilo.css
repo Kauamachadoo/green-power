@@ -1,6 +1,7 @@
 /*Corpo do Site */
 body{
-    height: 3000px;
+    height: 2650px;
+    
 }
 
 *{
@@ -34,7 +35,7 @@ body{
 }
 /* BG Letras */
 #menu-h ul li a:hover{
-    background-color: rgb(9, 163, 140);
+    background-color: rgba(20, 107, 17, 0.767);
     padding: 20px;
     border-radius:10px ;
 }
@@ -78,13 +79,33 @@ img{
     right: -5px;
 }
 
+#aulas{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 350px;
+    font-size: 250%;
+    color: rgba(4, 26, 3, 0.979);
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+#conteudoaulas{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    font-size: 200%;
+    color: rgba(4, 26, 3, 0.979);
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
 #futsal{
-    background-color:rgb(1, 127, 125) ;
+    background-color:rgb(0, 158, 79);
     width: 350px;
     margin-left: -30px;
     margin-right: 50px;
     padding: 20px 30px;
-    margin-top: 500px;
+    margin-top: 80px;
     border-radius: 5px;
     align-items: center;
     justify-content: center;
@@ -95,12 +116,12 @@ img{
 }
 
 #volei{
-    background-color:rgb(1, 127, 125) ;
+    background-color:rgb(0, 158, 79);
     width: 350px;
     margin-left: 385px;
     margin-right: 500px;
     padding: 20px 30px;
-    margin-top: -440px;
+    margin-top: -500px;
     border-radius: 5px;
     align-items: center;
     justify-content: center;
@@ -111,12 +132,12 @@ img{
 }
 
 #basquete{
-    background-color:rgb(1, 127, 125) ;
+    background-color:rgb(0, 158, 79);
     width: 350px;
     margin-left: 800px;
     margin-right: 50px;
     padding: 20px 30px;
-    margin-top: -440px;
+    margin-top: -500px;
     border-radius: 5px;
     align-items: center;
     justify-content: center;
@@ -124,4 +145,20 @@ img{
     color: #FFF;
     font-size: 125%;
     font-family: "Lucida Console", Courier, monospace;
+}
+
+#eventos-data{
+    position: relative;
+    margin-top: 350px;
+    margin-left: 160px;
+}
+
+#agenda{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+#agenda2{
+    margin-top: -240px;
+    margin-left: 750px;
 }
