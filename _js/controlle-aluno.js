@@ -3,13 +3,20 @@ Inicio: Função de verificação dos campos do formulário
 */
 function verificar(){
 	var nome = document.getElementById('nome').value;
-	var email = document.getElementById('email').value;
+	var genero = document.getElementById('genero').value;
 	var dtnas = document.getElementById('data').value;
-	var fone = document.getElementById('fone-aluno').value;
 	var cpf = document.getElementById('cpf').value;
+	var email = document.getElementById('email').value;
 	var senha = document.getElementById('senha').value;
+	var cpf = document.getElementById('cpf-resp').value;
+	var fone = document.getElementById('fone').value;
+	var cep = document.getElementById('cep').value;
+	var endereco = document.getElementById('endereco').value;
+	var bairro = document.getElementById('bairro').value;
+	var numero = document.getElementById('numero').value;
 
-	if(!nome || !email || !dtnas || !fone || !cpf || !senha){
+
+	if(!nome || !genero || !dtnas || !cpf || !email || !senha || !cpf || !fone || !cep || !endereco || !bairro || !numero){
 	 	alert("Campos não preenchidos, favor preenche-los");
 	} 		else {
 			 	alert("Campos preenchidos com sucesso");

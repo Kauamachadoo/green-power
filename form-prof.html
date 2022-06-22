@@ -4,77 +4,86 @@
     <meta charset='utf-8'>
     <title> Cadastro de Instrutor </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src='_js/controller.js'></script>
+    <script src='_js/controlle-prof.js'></script>
     <link rel="stylesheet" href="_css/cssform.css">
     <link rel="stylesheet" href="_css/stiloinfo.css">
 </head>
 <body>  
     <nav id="menu-h">
-    <div>
-        <ul>
-            <img src="_images/logo.png" width="150">
-            <li><a href="index.html">INÍCIO</a></li>
-            <li><a href="info.html">SOBRE</a></li>
-            <li><a href="index.html">AULAS</a></li>
-            <li><a href="event.html">EVENTOS</a></li>   
-        </ul>
-   </div>
-</nav>
-<br>
-<br>
+        <div>
+            <ul>
+                <img src="_images/logo.png" width="150">
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="info.html">SOBRE</a></li>
+                <li><a href="index.html">AULAS</a></li>
+                <li><a href="event.html">EVENTOS</a></li>   
+            </ul>
+       </div>
+    </nav>
+    <br>
+    <br>
     <h3 style="text-align: center;" >CADASTRO PARA INSTRUTOR</h3>
     <br>
     <div class="container">
         <form>
             <div class="row">
-                <div class="col">
+                <div class="col-md-12">
                     <label class="form-label">Nome Completo</label>
-                    <input type="text" class="form-control" id="nome-instrutor-instrutor" name ="nome" placeholder="Digite seu nome...">
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome...">
                 </div>
+                <div class="row">
+                    <div class="col">
+                <label class="form-label">Gênero</label>
+                    <select class="form-select" id="genero" aria-label="Default select example">
+                        <option selected>Selecionar</option>
+                        <option value="1">Masculino</option>
+                        <option value="2">Feminino</option>
+                        <option value="3">Outro</option>
+                    </select>
+                </div>
+                    <div class="col">
+                        <label class="form-label">Data de nascimento</label>
+                        <input type="date" class="form-control" id="data">
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label">CPF</label>
+                            <input type="cpf" class="form-control" id="cpf" placeholder="Informe seu CPF...">
+                        </div>
+                        <div class="col">
+                            <label class="form-label">Telefone</label>
+                            <input type="fone" class="form-control" id="fone" placeholder="Ex: (DDD)1111-2222">
+                        </div>
+                    </div>
                 <div class="row">
                 <div class="col">
                     <label class="form-label">E-mail</label>
-                    <input type="email" class="form-control" id="email-instrutor" nome="email" placeholder="Digite seu e-mail..." >
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail..." >
                 </div>
                 <div class="col">
                     <label class="form-label">Senha</label>
-                    <input type="password" class="form-control" id="senha-instrutor" name="senha" placeholder="Digite uma senha...">
-                </div>
-            </div>
-                <div class="row">
-                <div class="col">
-                    <label class="form-label">CPF</label>
-                    <input type="cpf" class="form-control" id="cpf-prof" name="cpf" placeholder="Informe seu CPF...">
-                </div>
-                <div class="col">
-                    <label class="form-label">Data de nascimento</label>
-                    <input type="date" class="form-control" id="data-instrutor" name="date">
-                </div>
-                </div>
-                <div class="row">
-                <div class="col">
-                    <label class="form-label">Telefone</label>
-                    <input type="fone" class="form-control" id="fone-instrutor" name="fone" placeholder="Ex: (DDD)1111-2222">
+                    <input type="password" class="form-control" id="senha" placeholder="Digite uma senha...">
                 </div>
                 </div>
                 <div class="row">
                     <div class="col">
                         <label class="form-label">CEP</label>
-                        <input type="cep" class="form-control" id="cep" name="cep-instrutor" placeholder="Ex: 12345-678">
+                        <input type="cep" class="form-control" id="cep" placeholder="Ex: 12345-678">
                     </div>
-                        <div class="col">
-                            <label class="form-label">Endereço</label>
-                            <input type="address" class="form-control" id="endereco-instrutor" name="endereco" placeholder="Informe seu Endereço">
-                        </div>
+                    <div class="col">
+                        <label class="form-label">Endereço</label>
+                        <input type="address" class="form-control" id="endereco" placeholder="Informe seu Endereço">
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col">
                         <label class="form-label">Bairro</label>
-                        <input type="address" class="form-control" id="bairro-instrutor" name="bairro" placeholder="Informe seu Bairro">
+                        <input type="address" class="form-control" id="bairro" placeholder="Informe seu Bairro">
                     </div>
                         <div class="col">
                             <label class="form-label">Nº</label>
-                            <input type="number" class="form-control" id="numero-instrutor" name="numero" placeholder="Número">
+                            <input type="number" class="form-control" id="numero" placeholder="Número">
                         </div>
                         </div>
                 <div class="row">
@@ -83,7 +92,7 @@
                     <label class="form-label"> Sobre você(Ex. Especialidade, Experiências...) </label>
                     <textarea class="form-control" id="opina" rows="3" name="opina" placeholder="Digite aqui!"></textarea>
                 <br>    
-                <button type="submit" class="btn btn-primary">CADASTRAR</button>  
+                <button onclick="verificar()"type="submit" class="btn btn-primary">Cadastrar</button>
         </form>
     </div>
     
